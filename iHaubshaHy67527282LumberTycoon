@@ -28,3 +28,15 @@ OrionLib:MakeNotification({
 })
 
 --- meu Botao
+
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		local args = {
+    [1] = false
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("PropertyPurchasing"):WaitForChild("SetPropertyPurchasingValue"):InvokeServer(unpack(args))
+
+  	end    
+})
