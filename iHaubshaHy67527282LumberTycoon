@@ -7,7 +7,7 @@ local Window = OrionLib:MakeWindow({Name = "Harlen Hub V3", HidePremium = false,
 --- Tab
 
 local Tab = Window:MakeTab({
-	Name = "🎁┃Lucky Block",
+	Name = "🚪┃Home",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
